@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Choose a Side!</title>
+  </head>
+  <body>
+    <h1>Which Side are You?</h1>
+
+    <script>
+      var username = prompt('What is your name?');
+        console.log('The user\'s name is ' + username);
+        alert('Amazing to meet you, ' + username);
+
+      var hometown = prompt('Where are you from?');
+        console.log('The user is from' + hometown);
+
+      var lightOrDarkSide = prompt(username + ': Do you choose the light or dark side?').toUpperCase();
+      console.log('The user chose the ' + lightOrDarkSide);
+
+      switch(lightOrDarkSide)
+      {
+        case 'LIGHT':
+          alert('So, you chose the ' + lightOrDarkSide.toLowerCase() + ' side ... welcome Master ' + username + ' !');
+          console.log('The user\'s name is Master ' + username);
+
+        break;
+
+        case 'DARK':
+          alert('So, you chose the ' + lightOrDarkSide.toLowerCase() + ' side ... welcome Darth ' + username + ' !');
+          console.log('The user\'s name is Darth ' + username);
+        break;
+      }
+
+      if (lightOrDarkSide === 'LIGHT')
+        {
+        alert('Choose a padawan');
+        var padawan = prompt ('What is your padawan\'s name?');
+        console.log('The user\'s padawan is ' + padawan);
+        alert('So, Master ' + username + ' you chose ' + padawan + ' as your padawan!');
+        document.write('Your name is Master ' + username + ' from '+ hometown);
+        document.write('You chose the: ' + lightOrDarkSide.toLowerCase() + ' side and you chose: ' + padawan +' as your padawan!');
+        }
+      else
+        {
+        alert ('Choose an apprentice')
+        var apprentice = prompt('What is your apprentice\'s name?');
+        console.log('The user\'s apprentice is ' + apprentice);
+        alert('So, Darth ' + username + ' you chose ' + apprentice + ' as your apprentice!');
+        document.write('Your name is: Darth' + username + ' from ' + hometown);
+        document.write('You chose the: ' + lightOrDarkSide.toLowerCase() + ' and you chose: ' + apprentice +' as your apprentice!');
+        }
+
+
+
+
+    </script>
+
+
+  </body>
+</html>
