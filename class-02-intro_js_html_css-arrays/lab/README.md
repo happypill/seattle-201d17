@@ -35,6 +35,7 @@ As a developer, I want to provide five questions to the user, so that they can g
 - HTML, CSS, and JavaScript must be cleanly written with correct indentation and syntax. Look at code examples online and in your textbook, and check out Google's style guides for [HTML/CSS](https://google.github.io/styleguide/htmlcssguide.xml) and [JaveScript](http://google.github.io/styleguide/jsguide.html). Note that your JS *must* pass the rules in our linter.
 - Your JS file contains a 'use strict' declaration at the top. **Always.**
 - Design a guessing game about you that involves **FIVE** yes/no questions. Be creative and fun and whimsical. Or not. It's up to you! It's your project!
+- For this stage of the buiiding of this project, DO NOT USE FUNCTIONS! We'll refactor later.
 - The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no responses, with either `.toUpperCase()` or `.toLowerCase()` used to validate the user input and accommodate users entering all-caps Y/N or YES/NO answers, too.
 - Useful and descriptive `console.log()` messages in the JS are well written and correctly displaying to the browser console for each question of the guessing game.
 - Use CSS to style your page as you see fit, to the level of abilities in CSS that you currently have
