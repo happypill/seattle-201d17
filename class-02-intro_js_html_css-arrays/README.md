@@ -9,14 +9,15 @@
 
 - Code Review!
 - Introduction to Git
-- Git practice: ACP the code and learning journal from yesterday [30 minutes]
 - [Topics from HTML readings](#html)
 - [Topics from CSS readings](#css)
 - *10 minute break*
 - [Topics from JS readings](#js)
 - [Review lab assignment, code demo](#code)
+- Git practice: ACP the code and learning journal from yesterday
 
 ####Announcements:
+ - Sam will be in a meeting from 4:00 to 5:00 this afternoon. That will generally be the case on all Tuesdays and Wednesdays.
  - Quiz 1 will be published at the end of lab this afternoon, and it will be due by 11:59pm Wednesday. We will go over it on Thursday. More about quizzes:
  	- Note that there will be some quiz content from time to time that we may not have covered yet; for instance, something on the quiz published today that we do not cover until tomorrow. That's by design, to get you some practice in looking things up that are slightly beyond your experience/comfort level. That's the dev life.
  	- Keep in mind that you have unlimited re-takes on the quizzes, and also that the quizzes are designed to be treated like they are open-book. It's more about what you can figure out than what you have memorized.
@@ -72,6 +73,17 @@ As a result of completing Day 2 of Code 201, students will:
 - p.44: paragraph tags
 - p.49: visual editors (WYSIWYG)
 - lots of little text formatting pieces throughout the chapter (bold, italic, strong, emphasis, subscript, superscript, quotes, citations, etc.)
+
+**HTML Chapter 8: "Extra Markup"**
+
+- p.179: Evolution of HTML
+- p.181: Doctypes
+- p.182: Comments
+- p.183: Class & id attributes
+- p.185: Block vs. inline
+- p.191: Meta tags
+- p.193: Escape characters
+- p.194: Special characters
 
 **HTML Chapter 17: "HTML5 Layout"**
 
