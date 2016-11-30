@@ -32,7 +32,7 @@ As a developer, I want to provide five questions to the user, so that they can g
 - A new GitHub repo called `about_me` will be initialized for this assignment (with a README and a license, of course)
 - Clone this repo to the root level of your `~/codefellows/201/` directory on your computer. [WE DID THIS MONDAY]
 - Add an `index.html` file, a `style.css` file, and an `app.js` file to your repo, and get the files "wired up together" so to speak.
-- HTML, CSS, and JavaScript must be cleanly written with correct indentation and syntax. Look at code examples online and in your textbook, and check out Google's style guides for [HTML/CSS](https://google.github.io/styleguide/htmlcssguide.xml) and [JaveScript](http://google.github.io/styleguide/jsguide.html). Note that your JS *must* pass the rules in our linter.
+- HTML, CSS, and JavaScript must be cleanly written with correct indentation and syntax. Look at code examples online and in your textbook, and check out Google's style guides for [HTML/CSS](https://google.github.io/styleguide/htmlcssguide.xml) and [JavaScript](http://google.github.io/styleguide/jsguide.html). Note that your JS *must* pass the rules in our linter.
 - Your JS file contains a 'use strict' declaration at the top. **Always.**
 - Design a guessing game about you that involves **FIVE** yes/no questions. Be creative and fun and whimsical. Or not. It's up to you! It's your project!
 - For this stage of the buiiding of this project, DO NOT USE FUNCTIONS! We'll refactor later.
