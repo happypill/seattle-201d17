@@ -58,9 +58,10 @@ if ('something is true') {
 // p.174 	Key loop concepts (‘break’, ‘continue’)
 // p.175 	Using ‘for’ loops
 
-// var samsPets = ['Buddy', 'Alistair', 'Trillian', 'Demi', 'Parker'];
-// //
+var samsPets = ['Buddy', 'Alistair', 'Trillian', 'Demi', 'Parker'];
+//
 // for (var i = 0; i < samsPets.length; i++) {
+//   console.log('the value of i is ' + i);
 //   console.log(samsPets[i]);
 // }
 
