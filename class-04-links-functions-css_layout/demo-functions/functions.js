@@ -1,4 +1,4 @@
-// September 22
+// December 1
 // Sam's functions demo
 
 'use strict';
@@ -15,7 +15,10 @@ function woo() {    // This is the function declaration
   console.log('Wooooooo!!!!');
 }
 
-// woo(); // This is a function call
+woo(); // This is a function call
+woo();
+woo();
+woo();
 
 // We'll start with this commented out, then check it in the console, first by entering only the function name 'woo' in the console, then by entering the function call 'woo()' in the console.
 
@@ -30,9 +33,9 @@ function woo() {    // This is the function declaration
 // In those cases, the functions are declared with PARAMETERS and are called with ARGUMENTS.
 
 // Declared with three parameters
-function clue(who, where, weapon) {
-  console.log('The murder was committed by ' + who + ' in the ' + where + ' with the ' + weapon + '.');
-}
+// function clue(who, where, weapon) {
+//   console.log('The murder was committed by ' + who + ' in the ' + where + ' with the ' + weapon + '.');
+// }
 
 // Called with three arguments
 // clue('Munir', 'bathroom', 'CSS');
@@ -43,11 +46,11 @@ function clue(who, where, weapon) {
 
 // Note that we can also pass in the values of externally declared variables when the function is called:
 
-var murderer = 'Colonel Mustard';
-var crimeScene = 'library';
-var toolOfDeath = 'candlestick';
-//
-clue(murderer, crimeScene, toolOfDeath);
+// var murderer = 'Colonel Mustard';
+// var crimeScene = 'library';
+// var toolOfDeath = 'candlestick';
+// //
+// clue(murderer, crimeScene, toolOfDeath);
 
 // ++++++++++++++++++++++++++++++++++++++++
 
