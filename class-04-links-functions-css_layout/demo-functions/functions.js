@@ -15,10 +15,10 @@ function woo() {    // This is the function declaration
   console.log('Wooooooo!!!!');
 }
 
-woo(); // This is a function call
-woo();
-woo();
-woo();
+// woo(); // This is a function call
+// woo();
+// woo();
+// woo();
 
 // We'll start with this commented out, then check it in the console, first by entering only the function name 'woo' in the console, then by entering the function call 'woo()' in the console.
 
@@ -33,9 +33,9 @@ woo();
 // In those cases, the functions are declared with PARAMETERS and are called with ARGUMENTS.
 
 // Declared with three parameters
-// function clue(who, where, weapon) {
-//   console.log('The murder was committed by ' + who + ' in the ' + where + ' with the ' + weapon + '.');
-// }
+function clue(who, where, weapon) {
+  console.log('The murder was committed by ' + who + ' in the ' + where + ' with the ' + weapon + '.');
+}
 
 // Called with three arguments
 // clue('Munir', 'bathroom', 'CSS');
@@ -46,11 +46,11 @@ woo();
 
 // Note that we can also pass in the values of externally declared variables when the function is called:
 
-// var murderer = 'Colonel Mustard';
-// var crimeScene = 'library';
-// var toolOfDeath = 'candlestick';
-// //
-// clue(murderer, crimeScene, toolOfDeath);
+var murderer = prompt('Who is the killer');
+var crimeScene = 'library';
+var toolOfDeath = 'candlestick';
+//
+clue(murderer, crimeScene, toolOfDeath);
 
 // ++++++++++++++++++++++++++++++++++++++++
 
@@ -65,10 +65,10 @@ function mathsAreHard(numOne, numTwo, numThree) {
   var sum = numOne + numTwo + numThree;
   // console.log('The sum of these numbers is ' + sum);
   return sum;
-  // console.log('IF this shows I will give Munir $1000');
+  console.log('IF this shows I will give Dave Cole $1000');
 }
 
-// console.log(mathsAreHard(2, 5, 9));
+console.log(mathsAreHard(2, 5, 9));
 
 // Let's also inspect what each of the following gives us in the console: mathsAreHard, mathsAreHard(), and mathsAreHard(3, -5, Math.PI).
 
@@ -77,7 +77,7 @@ function mathsAreHard(numOne, numTwo, numThree) {
 function mathsGetHarder(numOne, numTwo, numThree) {
   // numOne = 0;
   var oneTimesTwo = numOne * numTwo;
-  var twoOverThree = numTwo / numThree;
+  var twoOverThree = numTwo / oneTimesTwo;
   var sum = numOne + numTwo + numThree;
   var results = [sum, oneTimesTwo, twoOverThree];
   // var commanderRiker;
