@@ -2,7 +2,7 @@
 
 var myArray = ['a', 'b', 'c'];
 // console.log('myArray is', myArray);
-//
+
 var myObject = {
   0: 'a',
   1: 'b',
@@ -63,4 +63,4 @@ sam.whatIsThis = function() {
     console.log(this);
 };
 
-sam.whatIsThis(); //logs the sam object
+// sam.whatIsThis(); //logs the sam object
