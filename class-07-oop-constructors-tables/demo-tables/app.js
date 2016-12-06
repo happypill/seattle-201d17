@@ -89,4 +89,4 @@ function catTableJS() { //eslint-disable-line
 }
 
 // FOR YOUR LAB
-// a for loop over the array of stores that calls the render() method on each individual location
+// a for loop over the array of stores that calls the render() method on each individual location as shown on the whiteboard at the very end
