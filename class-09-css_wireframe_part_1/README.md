@@ -27,8 +27,6 @@
   - We know it's been a hard few days, but the class is doing well.
   - It's not to soon to start thinking about final projects. Let's have a brief conversation about that today, because a week from tomorrow you're going to be divided up into teams and starting on your projects.
   - Tomorrow we'll look at some projects from prior classes and talk a bit about what to expect from Project Week.
-  - Learning Journal assignments: I apologize for the confusion on those. I finally figured out why they kept showing up even though I thought I deleted them last week. You should only see learning journal assignments on Mon-Wed-Fri going forward.
-  - Today is Sam's wife's birthday, and Sam is going to try to get on his way home by about 5:00 or so this afternoon so that he can make dinner for her tonight. TAs will be available to assist through 6:00, as is usual.
 
 - [Code Review](#codereview) *first half of class*
 
