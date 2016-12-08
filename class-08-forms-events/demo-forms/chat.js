@@ -40,14 +40,14 @@ function renderAllComments() {
 
 // This function is the event handler for the submission of comments
 function handleCommentSubmit(event) {
-
-  // console.log('log of the event object', event);
+  console.log('log of the event object', event);
   // console.log('log of the event.target', event.target);
   // console.log('log of the event.target.says', event.target.says);
-  console.log('log of the event.target.who.value', event.target.who.value);
+  // console.log('log of the event.target.who.value', event.target.who.value);
 
   event.preventDefault(); //gotta have it for this purpose. prevents page reload on a 'submit' event
 
+// Validation to prevent empty form fields
   if (!event.target.says.value || !event.target.who.value) {
     return alert('Fields cannot be empty!');
   }
