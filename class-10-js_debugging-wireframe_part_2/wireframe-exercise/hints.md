@@ -1,4 +1,4 @@
-# Hints/Tips for the Wirefeame Exercise
+# Hints/Tips for the Wireframe Exercise
 
 ## Selecting Elements
 
