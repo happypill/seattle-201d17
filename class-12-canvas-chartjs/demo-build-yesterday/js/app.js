@@ -19,6 +19,7 @@ var allProducts = [];
 var names = ['bag', 'banana', 'bathroom', 'boots', 'bubblegum', 'chair', 'cthulhu', 'dog_duck', 'dragon', 'pen', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water_can', 'wine_glass'];
 var newArray = [];
 var oldArray = [];
+var clickCounter = 0;
 
 // Constructor
 // -----------------
@@ -70,8 +71,8 @@ function makeArrayOfThreeNumbers() {
 }
 
 function showThreePics() {
-  makeArrayOfThreeNumbers();
   // this will place three new images on the page and add 1 to the view for that pic
+  makeArrayOfThreeNumbers();
   left.src = allProducts[newArray[0]].filepath;
   allProducts[newArray[0]].views += 1;
   center.src = allProducts[newArray[1]].filepath;
@@ -87,14 +88,38 @@ function renderList() {
 function handleClick(event) {
   event.preventDefault();
   // identify who was clicked
-  // tally the click
-  // display 3 new images
-  // prevent duplicates
+  console.log(event.target.src, 'was clicked');
   // alert for clicks not on images
-  // clear old images
+  if(event.target.id === 'pic-container'){
+    return alert('CLICK ON A PICTURE!!!! NOT THE BACKGROUND!!!');
+  }
+
+  // tally the click
+  if(event.target.id === 'left'){
+    allProducts[newArray[0]].clicks += 1;
+    console.log(allProducts[newArray[0]]);
+  }
+  if(event.target.id === 'center'){
+    allProducts[newArray[1]].clicks += 1;
+    console.log(allProducts[newArray[1]]);
+  }
+  if(event.target.id === 'right'){
+    allProducts[newArray[2]].clicks += 1;
+    console.log(allProducts[newArray[2]]);
+  }
+
+  clickCounter += 1;
+  console.log(clickCounter, 'total clicks so far');
   // check whether total clicks <25
+  if (clickCounter > 5) {
+    return alert('YOU OUTTA CLICKS, JACK');
+  }
   // after 25, remove event listeners on picNames
-  // after 25, show "Results" button
+      // after 25, show "Results" button
+      // clear old images
+  // display 3 new images
+  // showThreePics();
+  // console.log(event.target, 'was clicked after new pics');
 }
 // ++++++++++++++++++++++++++++
 // ++++++++++++++++++++++++++++
