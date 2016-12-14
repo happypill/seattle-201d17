@@ -11,18 +11,18 @@ var chartDrawn = false;
 // DATA - Constructor and instances
 // ++++++++++++++++++++++++++++++++++++++++++++
 
-function Song(title, votes, identifier) {
+function Song(title, identifier) {
   this.title = title;
-  this.votes = votes;
+  this.votes = 0;
   this.identifier = identifier;
   allSongs.push(this);
 }
 
-new Song('Purple Rain', 0, 'purplerain');
-new Song('Let\'s Work', 0, 'letswork');
-new Song('DMSR', 0, 'dmsr');
-new Song ('Mountains', 0, 'mountains');
-new Song('Starfish and Coffee', 0, 'starfish');
+new Song('Purple Rain', 'purplerain');
+new Song('Let\'s Work', 'letswork');
+new Song('DMSR', 'dmsr');
+new Song ('Mountains', 'mountains');
+new Song('Starfish and Coffee', 'starfish');
 
 // ++++++++++++++++++++++++++++++++++++++++++++
 // FUNCTION DECLARATIONS
@@ -88,7 +88,7 @@ var data = {
 function drawChart() {
   var ctx = document.getElementById('funky-chart').getContext('2d');
   songChart = new Chart(ctx,{
-    type: 'polarArea',
+    type: 'bar',
     data: data,
     options: {
       responsive: false
