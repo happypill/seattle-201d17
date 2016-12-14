@@ -7,6 +7,7 @@
 
 - Announcements
   - Sam has meetings at 12:30 (15 minutes) and 4:00 (an hour) this afternoon. Furthermore, Sam needs to head out a little early tonight and will be out by 5:45.
+  - We need to make serious headway on one-on-ones this afternoon; we did not do many of them yesterday because everyone was so focused and intense in their building process.
   - Wednesday (12/14): We'll go over the final project assignment specifications in class to clarify the requirements and expectations; also, first round of project pitches.
   - Thursday (12/15): Second round of project pitches
   - Friday (12/16): Final round of project pitches & set project teams

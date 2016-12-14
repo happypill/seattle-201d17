@@ -21,7 +21,7 @@ Since you have 4 hours in which to edit two projects, you'll need to work effici
 
 Be sure to follow these instructions **VERY** carefully.
 
-1. Before doing anything else, make sure that both of your repositories are ***'clean'***: in other words, everything is merged and pulled so that both the remote and local versions of your projects are in sync, and your most production-ready version of your code is in the master branch. This will prevent potential problems later.
+1. Before doing anything else, make sure that both of your repositories are ***'clean'***: in other words, everything is merged and pulled so that the master branches of both the remote and local versions of your projects are in sync, and your most production-ready version of your code is in the master branch. This will prevent potential problems later.
 
 2. Decide whose code you will work on first. The owner of that code (who will be the Navigator) provides the link to their GitHub repo to the other member of the pair (who will be the Driver). You can send this link over Slack, spell it verbally, or by carrier pigeon.
 
