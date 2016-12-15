@@ -37,7 +37,7 @@ lastItem = numberArray.pop();
 // console.log('\n');
 
 // unshift and shift
-// console.log('unshift adds an item to the beggining of an array');
+console.log('unshift adds an item to the beggining of an array');
 // numberArray.unshift(5);
 // console.log('numberArray.unshift(5)');
 // console.log('numberArray: [' + numberArray.toString()  + ']');
@@ -49,7 +49,7 @@ lastItem = numberArray.pop();
 // console.log('numberArray: [' + numberArray.toString()  + ']');
 // console.log('\n')
 
-// console.log('shift removes and returns the first item in an array');
+console.log('shift removes and returns the first item in an array');
 // var firstItem;
 // firstItem = numberArray.shift();
 // console.log('called numberArray.shift() stored the value in firstItem');
@@ -66,20 +66,20 @@ lastItem = numberArray.pop();
 // console.log('\n');
 
 // // concat
-// console.log('concat will return a new array with the contents of the array that was called an and the array arguments');
-// var concatArray =  numberArray.concat([33,22,11,0]);
+console.log('concat will return a new array with the contents of the array that was called an and the array arguments');
+var concatArray =  numberArray.concat([33,22,11,0]);
 // console.log('numberArray.concat([33,22,11,0]) and stored new array in concatArray');
 // console.log('concatArray: [' + concatArray.toString()  + ']');
 // console.log('\n');
 //
 // // join
-// console.log('join will return a string of the items in the array separated by a provided string, by default "," is the separator');
+console.log('join will return a string of the items in the array separated by a provided string, by default "," is the separator');
 // console.log('numberArray.join(): ' +  numberArray.join());
 // console.log('numberArray.join("_"): ' +  numberArray.join('_'));
 // console.log('\n');
 //
 // // indexOf and lastIndexOf
-// console.log('indexOf will return the first occurance of a specified value in an array, after a specified index(default 0)');
+console.log('indexOf will return the first occurance of a specified value in an array, after a specified index(default 0)');
 // console.log('usage numberArray.indexOf("value", "startIndex")');
 // numberArray = [4,22,33,54,34,55,6,4,33];
 // console.log('numberArray: [' + numberArray.toString()  + ']');

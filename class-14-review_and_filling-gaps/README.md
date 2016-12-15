@@ -103,7 +103,7 @@ On Monday morning, before noon, each team will meet with the instructional staff
 
 - Yana, Roseanne, Jay, Shiv
 
-- Remy, Khalid, Kayla, Adrien
+- Remy, Khalid, Kayla, Adrian
 
 - Brian A., Jennifer, Ophelia, Alejandro
 
