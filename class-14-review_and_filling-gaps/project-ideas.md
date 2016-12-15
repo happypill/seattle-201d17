@@ -17,3 +17,19 @@ Collin: Education system sucks. Doesn't match our oppressive economy. Make a sit
 Ophelia: 25% of Americans manage blood sugar with exercise, diet, etc. Make an app to help track it, chart the results. Improve predictions of food/activities over time based on individual metabolism?
 
 Siamak: Same as Gary but different. Show photos to kids where parents can record kids' ideas and record their childhood stories.
+
+---
+
+Juan: Quirky little search engine for puns... a pun dictionary.
+
+Cayla: Healthcare! Find where to get vaxxes, how much, etc.
+
+B-Dub: Battleship!
+
+Chika: Planner/scheduler PITA to enter data; drag-n-drop events as icons, etc.
+
+Adrian: Band name generator + mad lib game + buy equipment, etc. Stage names!
+
+Remster: Whack-a-Sam, a la Simon Says or old-school Simon game
+
+Shiv: Implementation of mindfulness out of curiosity creating a rudimentary version of Headspace. A couple of ideas of how to make it continue forth.

@@ -4,13 +4,13 @@
 
 // toString()
 // will separate the items of a string with a ','
-// numberArray = [55, 44, 33, 22];
+numberArray = [55, 44, 33, 22];
 // console.log('numberArray.toString(): ' + numberArray.toString());
 
 // push and pop
-// console.log('the push method adds an item to the end of an array');
-// numberArray.push(3);
-// console.log('numberArray.push(3)');
+console.log('the push method adds an item to the end of an array');
+numberArray.push(3);
+console.log('numberArray.push(3)');
 // console.log('numberArray: [' + numberArray.toString()  + ']');
 // numberArray.push(-22);
 // console.log('numberArray.push(-22)');
@@ -20,9 +20,9 @@
 // console.log('numberArray: [' + numberArray.toString()  + ']');
 // console.log('\n')
 
-// console.log('the pop method removes and returns the last item of an array');
-// var lastItem;
-// lastItem = numberArray.pop();
+console.log('the pop method removes and returns the last item of an array');
+var lastItem;
+lastItem = numberArray.pop();
 // console.log('called numberArray.pop() stored the value in lastItem');
 // console.log('lastItem:    ', lastItem);
 // console.log('numberArray: [' + numberArray.toString()  + ']');

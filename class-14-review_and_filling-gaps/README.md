@@ -97,3 +97,18 @@ On Monday morning, before noon, each team will meet with the instructional staff
 **A:** Google Docs is a good way to collaborate on text-based content like lists, outlines, descriptions, etc. For wireframes, hand-sketched documents are fine. There are computer-based wireframe tools, but then there is the headache of learning the tool.
 
 [-top-](#top)
+
+
+### Groups:
+
+- Yana, Roseanne, Jay, Shiv
+
+- Remy, Khalid, Kayla, Adrien
+
+- Brian A., Jennifer, Ophelia, Alejandro
+
+- Gary, Shelly, Alison, Colin
+
+- Jeff, Siamak, Maria, Annie
+
+- Brian W., Juan, Darcy, Chika, Cherise
