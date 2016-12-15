@@ -5,7 +5,7 @@
 
 #### Reminder: Quizzes 7 and 8 are due at 11:59pm tomorrow (Friday). We will get any existing Quiz 7 submissions graded during class this morning, and then you'll have an opportunity to redo the quiz later today if you'd like.
 
-#### The 301 entrance exam (and our final exam) will be published tomorrow (Friday) afternoon and will be due at 11:59pm on Sunday 10/9.
+#### The 301 entrance exam (and our final exam) will be published tomorrow (Friday) afternoon and will be due at 11:59pm on Sunday 12/18.
 
 - Announcements
   - Project Week is almost here!!!
