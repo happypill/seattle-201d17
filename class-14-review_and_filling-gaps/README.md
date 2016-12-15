@@ -111,4 +111,4 @@ On Monday morning, before noon, each team will meet with the instructional staff
 
 - Jeff, Siamak, Maria, Annie
 
-- Brian W., Juan, Darcy, Chika, Cherise
+- Brian W., Juan, Darcy, Chika
