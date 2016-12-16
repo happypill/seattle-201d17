@@ -2,4 +2,8 @@
 
 I have been known to Bob on occasion.
 
-I am the other partner who is messing things up for everybody because I am pushing and merging as a lone wold and therefore altering the timeline.
+We are about to go off into the weeds because there will be changes made to the master branch after this current branch was made.
+
+Therefore, this current branch 'fubar' is trapped in the past.
+
+That will cause conflicts with the present.
