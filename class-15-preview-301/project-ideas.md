@@ -33,3 +33,9 @@ Adrian: Band name generator + mad lib game + buy equipment, etc. Stage names!
 Remster: Whack-a-Sam, a la Simon Says or old-school Simon game
 
 Shiv: Implementation of mindfulness out of curiosity creating a rudimentary version of Headspace. A couple of ideas of how to make it continue forth.
+
+Allison: Seattle neighborhood quiz!
+
+Khalid: Group game. Diagonal checkers
+
+Darcy: Loves Battleship and puns: BattleQuips! 
