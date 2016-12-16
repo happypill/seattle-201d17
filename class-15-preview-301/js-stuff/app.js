@@ -6,13 +6,13 @@
 
 // Function declarations may be called anywehere in the code.
 
-declaration('I was called BEFORE the function declaration');
+// declaration('I was called BEFORE the function declaration');
 
 function declaration(msg) {
   console.log(msg);
 }
 
-declaration('I was called AFTER the function declaration.');
+// declaration('I was called AFTER the function declaration.');
 
 // Function expressions, howver, may not be called before being assigned.
 
@@ -20,9 +20,9 @@ declaration('I was called AFTER the function declaration.');
 
 var expression = function(msg) {
   console.log(msg);
-}
+};
 
-expression('I was called AFTER the function expression.');
+// expression('I was called AFTER the function expression.');
 
 // Why does this work this way...?
 
@@ -51,9 +51,11 @@ function theScopeMaker() {
 // IIFEs
 //++++++++++++++++++++++++++
 
-// (function anIffeCallsItelf() {
-//   alert('This alert window is housed in an Immediately Invoked Function Expression! It runs on page load without polluting the global namespace. Everything inside of an IIFE is scoped locally. This is a standard technique for items that need to execute on page load.')
-// }());
+(function anIffeCallsItelf() {
+  var youCantSeeMe = 'Collin is stealthy';
+   alert('This alert window is housed in an Immediately Invoked Function Expression! It runs on page load without polluting the global namespace. Everything inside of an IIFE is scoped locally. This is a standard technique for items that need to execute on page load.');
+ }());
+
 
 //++++++++++++++++++++++++++
 //Prototypal inheritance
@@ -67,10 +69,11 @@ function Student(firstName, lastInitial, faveNumber) { //eslint-disable-line
   this.lastInitial = lastInitial;
   this.faveNumber = faveNumber;
   this.isCodeNinja = true;
-  this.introduction = function() {
-    console.log('My name is ' + this.firstName + ' and my favorite number is ' + this.faveNumber);
-  }
   mahClass.push(this);
+}
+
+Student.prototype.introduction = function() {
+    console.log('My name is ' + this.firstName + ' and my favorite number is ' + this.faveNumber);
 }
 
 // And then, what if I had an array where I could store all of you?
@@ -86,6 +89,10 @@ var gary = new Student('Gary', 'L', 42);
 // Actually, the instances of "Student" (that being juan, ophelia, and gary) inherit from a property on the "Student" constructor called "prototype", what we would express as "Student.prototype"
 
 Student.prototype.nextCourse = '301d16';
+
+Student.aintGonnaBeInherited = 'NO SOUP FOR YOU';
+
+juan.homeland = 'Puerto Rico';
 
 // This gives us flexibility in how we can manipulate individual instances of a constructor: we can do so all at once by manipulating the constructor, or we can also work with the objects individually to give them unique properties/values
 
