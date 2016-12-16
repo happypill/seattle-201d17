@@ -7,7 +7,7 @@
 
 - Announcements
   - Reminder: weekly surveys will go out to students today. As always, thank you for your feedback!
-  - Starting at 9:00a on Monday morning is a blackout window on submitting classwork (including late assignments and any resubmissions) during Project Week. In other words, you should be **100%** focused on your project during Project Week. The exceptions to that are the final BusMall submission and the 301 exam, each of which is due at 11:59pm Sunday 10/9. But for the rest of the week, do not spend energy on catching up on past assignments.
+  - Starting at 9:00a on Monday morning is a blackout window on submitting classwork (including late assignments and any resubmissions) during Project Week. In other words, you should be **100%** focused on your project during Project Week. The exceptions to that are the final BusMall submission and the 301 exam, each of which is due at 11:59pm Sunday 12/18. But for the rest of the week, do not spend energy on catching up on past assignments.
   - You'll have one week after project presentations to turn in any lingering late work or resubmissions. The deadline for that will be Friday 12/30 at 11:59pm.
   - The instructional staff will go into the gradebook and "zero out" any previously unsubmitted assignments this weekend. This is just an administrative step to show you exactly where you stand if you do not submit any additional assignments or do any resubmits of previous assignments.
 
