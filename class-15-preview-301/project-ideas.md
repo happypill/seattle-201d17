@@ -38,4 +38,4 @@ Allison: Seattle neighborhood quiz!
 
 Khalid: Group game. Diagonal checkers
 
-Darcy: Loves Battleship and puns: BattleQuips! 
+Darcy: Loves Battleship and puns: BattleQuips!
